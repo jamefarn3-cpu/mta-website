@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MTA</title>
+<meta name="description" content="وب‌سایت MTA">
+<style>
+:root{--bg:#07090d;--panel:#0e1219;--line:#202632;--text:#f5f7fa;--muted:#9aa3b2;--accent:#b7ff45}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Tahoma,Arial,sans-serif;line-height:1.9}
+a{text-decoration:none;color:inherit}.wrap{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:rgba(7,9,13,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:25px}
+.logo{font-size:25px;font-weight:900;letter-spacing:5px}.logo i{font-style:normal;color:var(--accent)}
+.links{display:flex;gap:25px;color:var(--muted);font-size:14px}.links a:hover{color:#fff}
+.button{display:inline-block;border:1px solid var(--line);padding:11px 18px;border-radius:10px;font-weight:bold}
+.button.main{background:var(--accent);color:#0a0c0a;border-color:var(--accent)}
+.hero{min-height:84vh;display:flex;align-items:center;text-align:center;position:relative;overflow:hidden}
+.hero:before{content:"MTA";position:absolute;left:50%;top:50%;transform:translate(-50%,-52%);font-size:min(35vw,430px);font-weight:900;letter-spacing:20px;color:rgba(255,255,255,.018);pointer-events:none}
+.hero-content{position:relative;width:100%}
+.tag{color:var(--accent);font-size:13px;letter-spacing:4px;font-weight:bold}
+h1{font-size:clamp(58px,12vw,145px);line-height:1;margin:20px 0;letter-spacing:10px}
+.hero p{max-width:620px;margin:0 auto 30px;color:var(--muted);font-size:17px}
+.actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+section{padding:90px 0;border-top:1px solid rgba(255,255,255,.04)}
+.head{margin-bottom:35px}.head small{color:var(--accent);font-weight:bold}.head h2{font-size:36px;margin:5px 0}.head p{color:var(--muted);max-width:650px;margin:0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:linear-gradient(145deg,#10151d,#0a0d12);border:1px solid var(--line);padding:30px;border-radius:18px;min-height:190px}
+.card span{font-size:12px;color:var(--accent);font-weight:bold}.card h3{font-size:21px;margin:9px 0}.card p{color:var(--muted);font-size:14px;margin:0}
+.statement{padding:55px;border:1px solid var(--line);border-radius:22px;background:linear-gradient(135deg,rgba(183,255,69,.08),rgba(255,255,255,.015))}
+.statement h2{font-size:clamp(30px,5vw,58px);line-height:1.5;margin:0 0 15px}.statement p{color:var(--muted);max-width:700px;margin:0}
+.cta{text-align:center}.cta h2{font-size:40px;margin:0 0 12px}.cta p{color:var(--muted);margin-bottom:25px}
+footer{padding:30px 0;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+.foot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+@media(max-width:800px){.links{display:none}.cards{grid-template-columns:1fr}.statement{padding:30px}h1{letter-spacing:5px}}
+</style>
+</head>
+<body>
+<header>
+ <div class="wrap">
+  <nav>
+   <a class="logo" href="#home">MT<i>A</i></a>
+   <div class="links">
+    <a href="#home">خانه</a>
+    <a href="#about">درباره MTA</a>
+    <a href="#identity">هویت MTA</a>
+    <a href="#activities">فعالیت‌ها</a>
+    <a href="#contact">ارتباط با ما</a>
+   </div>
+   <a class="button" href="#about">معرفی MTA</a>
+  </nav>
+ </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+ <div class="wrap hero-content">
+  <div class="tag">M T A</div>
+  <h1>MTA</h1>
+  <p>یک هویت مستقل؛ با تمرکز بر مسیر، دیدگاه و فعالیت‌های اختصاصی MTA.</p>
+  <div class="actions">
+   <a class="button main" href="#about">آشنایی با MTA</a>
+   <a class="button" href="#activities">فعالیت‌های MTA</a>
+  </div>
+ </div>
+</section>
+
+<section id="about">
+ <div class="wrap">
+  <div class="head">
+   <small>ABOUT</small>
+   <h2>درباره MTA</h2>
+   <p>MTA یک مجموعه با هویت، مسیر و رویکرد اختصاصی خود است. این وب‌سایت مرجع معرفی MTA، فعالیت‌ها، محتوا و توسعه‌های آینده آن خواهد بود.</p>
+  </div>
+  <div class="statement">
+   <h2>هویت MTA فراتر از یک عنوان است.</h2>
+   <p>هدف این فضا، ارائه تصویری شفاف و یکپارچه از MTA و ایجاد بستری برای معرفی بخش‌های مختلف آن است.</p>
+  </div>
+ </div>
+</section>
+
+<section id="identity">
+ <div class="wrap">
+  <div class="head">
+   <small>IDENTITY</small>
+   <h2>هویت MTA</h2>
+   <p>ساختار سایت به‌گونه‌ای طراحی شده که خود برند MTA در مرکز توجه باشد.</p>
+  </div>
+  <div class="cards">
+   <div class="card"><span>01</span><h3>دیدگاه</h3><p>معرفی نگاه، فلسفه و نگرشی که MTA بر اساس آن شکل گرفته است.</p></div>
+   <div class="card"><span>02</span><h3>مسیر</h3><p>روایت شکل‌گیری، توسعه و مسیری که MTA برای آینده دنبال می‌کند.</p></div>
+   <div class="card"><span>03</span><h3>هویت</h3><p>یک فضای منسجم برای نمایش شخصیت، ارزش‌ها و استانداردهای MTA.</p></div>
+  </div>
+ </div>
+</section>
+
+<section id="activities">
+ <div class="wrap">
+  <div class="head">
+   <small>MTA</small>
+   <h2>فعالیت‌های MTA</h2>
+   <p>این قسمت می‌تواند بر اساس فعالیت واقعی MTA با بخش‌های اختصاصی تکمیل شود.</p>
+  </div>
+  <div class="cards">
+   <div class="card"><span>MTA / 01</span><h3>معرفی</h3><p>اطلاعات رسمی و کامل درباره مجموعه و ساختار MTA.</p></div>
+   <div class="card"><span>MTA / 02</span><h3>محتوا</h3><p>انتشار محتوا، اخبار و مطالب مرتبط با فعالیت‌های MTA.</p></div>
+   <div class="card"><span>MTA / 03</span><h3>ارتباط</h3><p>مسیر مستقیم برای ارتباط کاربران و مخاطبان با MTA.</p></div>
+  </div>
+ </div>
+</section>
+
+<section id="contact">
+ <div class="wrap cta">
+  <div class="tag">OFFICIAL MTA</div>
+  <h2>با MTA در ارتباط باشید</h2>
+  <p>اطلاعات تماس و شبکه‌های رسمی MTA در این بخش قرار می‌گیرند.</p>
+  <a class="button main" href="#">ارتباط با MTA</a>
+ </div>
+</section>
+</main>
+
+<footer><div class="wrap foot"><span>© 2026 MTA</span><span>Official MTA Website</span></div></footer>
+</body>
+</html>
